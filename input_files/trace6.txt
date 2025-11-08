@@ -1,0 +1,3 @@
+CPU,10
+EXEC program3,30
+CPU,5
