@@ -1,0 +1,47 @@
+0, 1, switch to kernel mode
+1, 10, context saved
+11, 1, find vector 2 in memory position 0x0004
+12, 1, load address 0X0695 into the PC
+13, 17, copy PCB to child process
+30, 0, run dispatcher
+30, 1, finish fork handler
+31, 1, switch to kernel mode
+32, 10, context saved
+42, 1, find vector 3 in memory position 0x0006
+43, 1, load address 0X042B into the PC
+44, 16, target program size 10 Mb
+60, 150, move program into memory partition
+210, 3, flag slot as used
+213, 6, update PCB fields
+219, 0, choose next runnable
+219, 1, exit exec handler
+220, 1, switch to kernel mode
+221, 10, context saved
+231, 1, find vector 2 in memory position 0x0004
+232, 1, load address 0X0695 into the PC
+233, 15, copy PCB to child process
+248, 0, run dispatcher
+248, 1, finish fork handler
+249, 1, switch to kernel mode
+250, 10, context saved
+260, 1, find vector 3 in memory position 0x0006
+261, 1, load address 0X042B into the PC
+262, 33, target program size 15 Mb
+295, 225, move program into memory partition
+520, 3, flag slot as used
+523, 6, update PCB fields
+529, 0, choose next runnable
+529, 1, exit exec handler
+530, 53, CPU Burst
+583, 1, switch to kernel mode
+584, 10, context saved
+594, 1, find vector 3 in memory position 0x0006
+595, 1, load address 0X042B into the PC
+596, 33, target program size 15 Mb
+629, 225, move program into memory partition
+854, 3, flag slot as used
+857, 6, update PCB fields
+863, 0, choose next runnable
+863, 1, exit exec handler
+864, 53, CPU Burst
+917, 205, CPU Burst
